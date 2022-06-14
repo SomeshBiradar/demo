@@ -1,0 +1,60 @@
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~
+$ cd desktop/sample1
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1 (master)
+$ ls
+CurrentFolder/  abc.txt  demo.txt  demo2.txt  hh.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1 (master)
+$ rm abc.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1 (master)
+$ ls
+CurrentFolder/  demo.txt  demo2.txt  hh.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1 (master)
+$ cd CurrentFolder
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ touch abc.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ def.txt
+bash: def.txt: command not found
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ ghi.txt
+bash: ghi.txt: command not found
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ touch def.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ touch ghi.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ touch jkl.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ ls
+abc.txt  def.txt  ghi.txt  jkl.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ mkdir DestinationFolder
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ mv abc.txt \DestinationFolder
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ ls
+DestinationFolder/  def.txt  ghi.txt  jkl.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder (master)
+$ cd DestinationFolder
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder/DestinationFolder (master)
+$ ls
+abc.txt
+
+Somesh Biradar@DESKTOP-D0T6J20 MINGW64 ~/desktop/sample1/CurrentFolder/DestinationFolder (master)
+$
